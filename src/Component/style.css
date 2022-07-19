@@ -1,0 +1,31 @@
+#heading{
+    text-align: center;
+    text-transform: uppercase;
+    color: #6c0e1c;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    
+}
+#subHeading{
+    text-align: center;
+    font-size: 20px;
+}
+
+#exp{
+    text-align: center;
+    color: #6c0e1c;
+    font-family: "Times New Roman", Times, serif;
+}
+
+#expt{
+    text-align: center;
+    color: #6c0e1c;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#quoat{
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    color: #6c0e1c;
+}
+ 
