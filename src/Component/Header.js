@@ -1,38 +1,40 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import Education from './Education'
+import Home from './Home'
+import TechnicalSkills from './TechnicalSkills'
+import WorkExperience from './WorkExperience'
 
 export default function Header() {
   return (
-    <div><nav className="navbar navbar-expand-lg bg-secondary ">
-    <div className="container-fluid ">
-      <Link className="nav-link text-white" to='/' title="Shivangi Gupta">Shivangi Gupta</Link>      
-      <div className="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-          <li className="nav-item">
-            <Link className="nav-link active text-white" aria-current="page" to='/workexperience' title="Work Experience">Work Experience</Link>
-          </li>
-          <li className="nav-item">
-            <Link className="nav-link text-white" to='/technicalskills' title="Technical Skills">Technical Skills</Link>
-          </li>
-          <li className="nav-item">
-            <Link className="nav-link text-white"  to='/education' title="Education">
-              Education
-            </Link>
-            
-          </li>
-          <li className="nav-item">
-            <Link className="nav-link text-white" to='/awardshonors' title="Awards &amp; honor">Awards &amp; honors</Link>
-          </li>
-          <li className="nav-item">
-            <Link className="nav-link text-white" to='/careerhighlight'  title="Career Hightlights">Career Highlights</Link>
-          </li>
-          <li className="nav-item">
-            <Link className="nav-link text-white" to='/projects'  title="Projects">Projects</Link>
-          </li>
-        </ul>
-        <Link className="nav-link text-white" to='/contactdetails'  title="Contact Details">Contact Details</Link>
-      </div>
-    </div>
-  </nav></div>
+    <>
+    <nav id="navbar-example2" class="navbar navbar-expand-lg bg-secondary">
+  <a class="navbar-brand text-white" href="#">Shivangi Gupta</a>
+  <ul class="nav nav-pills">
+    <li class="nav-item">
+      <a class="nav-link text-white" href="#scrollspyHeading1">WorkExperience</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link text-white" href="#scrollspyHeading2">TechnicalSkills</a>
+    </li>
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle text-white" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Education</a>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#scrollspyHeading3">Graduation</a></li>
+        <li><a class="dropdown-item" href="#scrollspyHeading4">Inter</a></li>
+        <li><hr class="dropdown-divider"/></li>
+        <li><a class="dropdown-item" href="#scrollspyHeading5">Highschool</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+<div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-light p-3 rounded-2" tabindex="0">
+<Home/>
+  <WorkExperience/>
+  <TechnicalSkills/>
+  <Education/>
+  
+</div>
+</>
   )
 }

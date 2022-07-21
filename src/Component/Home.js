@@ -1,8 +1,11 @@
 import React from 'react'
+import Education from './Education'
+import TechnicalSkills from './TechnicalSkills'
 import WorkExperience from './WorkExperience'
 
 export default function Home() {
-  return (<>
+  return (
+  <div >
     <div id="carouselExampleCaptions" className="carousel slide" data-bs-ride="false">
   <div className="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
@@ -42,7 +45,8 @@ export default function Home() {
   </button>
   
 </div>
-<WorkExperience/>
-</>
+
+</div>
+
   )
 }

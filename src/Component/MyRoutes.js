@@ -20,7 +20,7 @@ export default function MyRoutor() {
         <BrowserRouter>
             <Header/>
                 <Routes>
-                    <Route path="/" element={<Home />}/>
+                    <Route path="/header" element={<Header />}/>
                     <Route path="/workexperience" element={<WorkExperience />}/>
                     <Route path="/technicalskills" element={<TechnicalSkills />}/>
                     <Route path="/awardshonors"  element={<AwardsHonors />}/>
