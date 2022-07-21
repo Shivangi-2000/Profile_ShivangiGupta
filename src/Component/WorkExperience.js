@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import './style.css'
 export default function WorkExperience() {
   return (
-    <div><nav className="navbar navbar-expand-lg bg-secondary ">
+    <div id='scrollspyHeading1'><nav className="navbar navbar-expand-lg bg-secondary ">
     <div className="container-fluid ">
       <Link className="nav-link text-white" to='/' title="Shivangi Gupta">Work Experience</Link>      
     </div>
