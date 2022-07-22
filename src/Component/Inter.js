@@ -6,12 +6,12 @@ export default function Inter() {
       <br></br>
       <p>
   <button class="btn btn-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample2" aria-expanded="false" aria-controls="collapseExample">
-    Inter Mediate
+    Intermediate
   </button>
 </p>
 <div class="collapse" id="collapseExample2">
-  <div class="card card-body">
-    Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+  <div class="container card card-body">
+    <img src='Inter.jpeg' alt="Avatar" class="image"/>
   </div>
 </div></div>
   )
