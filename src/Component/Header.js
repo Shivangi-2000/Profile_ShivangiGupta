@@ -20,8 +20,8 @@ export default function Header() {
     <li class="nav-item dropdown">
       <a class="nav-link dropdown-toggle text-white" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Education</a>
       <ul class="dropdown-menu">
-        <li><a class="dropdown-item" href="#scrollspyHeading3">Graduation</a></li>
-        <li><a class="dropdown-item" href="#scrollspyHeading4">Inter</a></li>
+        <li><a class="dropdown-item" href="#scrollspyHeading3">Bachelor of Technology</a></li>
+        <li><a class="dropdown-item" href="#scrollspyHeading4">Intermediate</a></li>
         <li><hr class="dropdown-divider"/></li>
         <li><a class="dropdown-item" href="#scrollspyHeading5">Highschool</a></li>
       </ul>
