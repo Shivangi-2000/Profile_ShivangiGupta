@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Inter() {
   return (
-    <div id='scrollspyHeading4'>
+    <div >
       <br></br>
       <p>
   <button class="btn btn-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample2" aria-expanded="false" aria-controls="collapseExample">

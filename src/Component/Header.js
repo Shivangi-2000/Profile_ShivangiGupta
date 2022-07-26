@@ -1,7 +1,9 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import AwardsHonors from './AwardsHonors'
 import Education from './Education'
 import Home from './Home'
+import Projects from './Projects'
 import TechnicalSkills from './TechnicalSkills'
 import WorkExperience from './WorkExperience'
 
@@ -17,24 +19,39 @@ export default function Header() {
     <li class="nav-item">
       <a class="nav-link text-white" href="#scrollspyHeading2">TechnicalSkills</a>
     </li>
-    <li class="nav-item dropdown">
-      <a class="nav-link dropdown-toggle text-white" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Education</a>
-      <ul class="dropdown-menu">
-        <li><a class="dropdown-item" href="#scrollspyHeading3">Bachelor of Technology</a></li>
-        <li><a class="dropdown-item" href="#scrollspyHeading4">Intermediate</a></li>
-        <li><hr class="dropdown-divider"/></li>
-        <li><a class="dropdown-item" href="#scrollspyHeading5">Highschool</a></li>
-      </ul>
+    <li class="nav-item">
+      <a class="nav-link text-white" href="#scrollspyHeading3">Education</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link text-white" href="#scrollspyHeading4">Projects</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link text-white" href="#scrollspyHeading5">AwardsHonors</a>
     </li>
   </ul>
 </nav>
 <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-light p-3 rounded-2" tabindex="0">
-<Home/>
+  <Home/>
   <WorkExperience/>
   <TechnicalSkills/>
   <Education/>
-  
+  <Projects/>
+  <AwardsHonors/>
 </div>
 </>
   )
 }
+
+/*
+1.)npm i @emailjs/browser
+2.)npm i @fortawesome/free-brands-svg-icons
+3.)npm i @fortawesome/free-solid-svg-icons 
+4.)npm i @fortawesome/react-fontawesome
+5.)npm i animate.css
+6.)npm i gsap trial
+7.)npm i loaders.css
+8.)npm i react-leaflet
+9.)npm i react-loaders
+10.) npm i react-router-dom
+11.)npm i sass
+*/

@@ -8,7 +8,7 @@ export default function WorkExperience() {
       <Link className="nav-link text-white" to='/' title="Shivangi Gupta">Work Experience</Link>      
     </div>
   </nav>
-  <h1 id='heading'>Work Experience</h1>
+  <h1 id='heading'>Work Experience</h1><hr/>
   <p id='subHeading'>Experience comes from practice</p>
   <br></br>
 

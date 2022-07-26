@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Graduation() {
   return (
-    <div id='scrollspyHeading3'>
+    <div >
       <br></br>
       <p>
   <button class="btn btn-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">

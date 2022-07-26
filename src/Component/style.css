@@ -22,6 +22,10 @@
     color: #6c0e1c;
     font-family: Arial, Helvetica, sans-serif;
 }
+#expt1{
+  color: #0a0a0a;
+  font-family: Arial, Helvetica, sans-serif;
+}
 
 #quoat{
     text-align: center;
@@ -29,14 +33,16 @@
     color: #6c0e1c;
 }
 
+#quoat1{
+  font-family: "Times New Roman", Times, serif;
+  color: #0a0a0a;
+}
+
 img:hover {
     box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
   }
 
-  .container {
-    position: relative;
-    width: 50%;
-  }
+ 
   
   .image {
     display: block;
@@ -72,4 +78,36 @@ img:hover {
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
   }
+
+  .a {
+    list-style-type: circle;
+    font-style: italic;
+  }
+
+  .main {
+    max-width: 1000px;
+    margin: auto;
+  }
+
+  .content {
+    background-color: white;
+    padding: 10px;
+  }
+ 
+  
+#body1 {
+  background-color: #f1f1f1;
+  padding: 20px;
+  font-family: Arial;
+}
+
+
+
+.zoom:hover {
+  -ms-transform: scale(2); /* IE 9 */
+  -webkit-transform: scale(2); /* Safari 3-8 */
+  transform: scale(2); 
+}
+
+
  
