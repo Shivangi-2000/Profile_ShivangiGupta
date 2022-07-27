@@ -5,6 +5,7 @@ import Education from './Education'
 import Home from './Home'
 import Projects from './Projects'
 import TechnicalSkills from './TechnicalSkills'
+import TechStack from './TechStack'
 import WorkExperience from './WorkExperience'
 
 export default function Header() {
@@ -26,7 +27,10 @@ export default function Header() {
       <a class="nav-link text-white" href="#scrollspyHeading4">Projects</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link text-white" href="#scrollspyHeading5">AwardsHonors</a>
+      <a class="nav-link text-white" href="#scrollspyHeading5">Trainings &amp; Certifications</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link text-white" href="#scrollspyHeading6">Coding Profiles</a>
     </li>
   </ul>
 </nav>
@@ -37,6 +41,7 @@ export default function Header() {
   <Education/>
   <Projects/>
   <AwardsHonors/>
+  <TechStack/>
 </div>
 </>
   )
