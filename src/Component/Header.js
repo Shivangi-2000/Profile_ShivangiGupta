@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import AwardsHonors from './AwardsHonors'
+import ContactDetails from './ContactDetails'
 import Education from './Education'
 import Home from './Home'
 import Projects from './Projects'
@@ -32,9 +33,12 @@ export default function Header() {
     <li class="nav-item">
       <a class="nav-link text-white" href="#scrollspyHeading6">Coding Profiles</a>
     </li>
-  </ul>
+    <li class="nav-item">
+      <a class="nav-link text-white" href="#scrollspyHeading7">Contact Details</a>
+  </li>
+  </ul>  
 </nav>
-<div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-light p-3 rounded-2" tabindex="0">
+<div data-bs-spy="scroll" data-bs-target="#navbar-example2 "  data-bs-smooth-scroll="true" class="scrollspy-example bg-light " tabindex="0">
   <Home/>
   <WorkExperience/>
   <TechnicalSkills/>
@@ -42,6 +46,7 @@ export default function Header() {
   <Projects/>
   <AwardsHonors/>
   <TechStack/>
+  <ContactDetails />
 </div>
 </>
   )
