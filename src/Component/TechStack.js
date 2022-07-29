@@ -6,11 +6,11 @@ export default function () {
     <div id='scrollspyHeading6'>
       <nav className="navbar navbar-expand-lg  bg-secondary">
           <div className="container-fluid ">
-            <Link className="nav-link text-white" to='/' title="Shivangi Gupta">Trainings &amp; Certifications</Link>      
+            <Link className="nav-link text-white" to='/' title="Shivangi Gupta">Coding Profiles</Link>      
           </div> 
         </nav><br></br>
         <h1 id='heading'>Coding Skills</h1>
-     <p id='subHeading'>We are not born with skills but we can develop it by practice</p>
+     <p id='subHeading'>We are not born with skills but we can develop it by hardwork</p>
      
       <div className='row'id='quoat'>
         <div className='card col-md-3'>

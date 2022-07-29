@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import TechStack from './TechStack'
+
 
 export default function TechnicalSkills() {
   return (
