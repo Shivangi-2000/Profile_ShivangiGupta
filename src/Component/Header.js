@@ -5,6 +5,7 @@ import ContactDetails from './ContactDetails'
 import Education from './Education'
 import Home from './Home'
 import Projects from './Projects'
+import SideInterest from './SideInterest'
 import TechnicalSkills from './TechnicalSkills'
 import TechStack from './TechStack'
 import WorkExperience from './WorkExperience'
@@ -33,10 +34,13 @@ export default function Header() {
     <li class="nav-item">
       <a class="nav-link text-white" href="#scrollspyHeading6">Coding Profiles</a>
     </li>
-    <li class="nav-item">
+    <li >
       <a class="nav-link text-white" href="#scrollspyHeading7">Contact Details</a>
-  </li>
-  </ul>  
+  </li> 
+  <li >
+      <a class="nav-link text-white" href="#scrollspyHeading7">Other Interest</a>
+  </li>  
+  </ul>   
 </nav>
 <div data-bs-spy="scroll" data-bs-target="#navbar-example2 "  data-bs-smooth-scroll="true" class="scrollspy-example bg-light " tabindex="0">
   <Home/>
@@ -46,6 +50,7 @@ export default function Header() {
   <Projects/>
   <AwardsHonors/>
   <TechStack/>
+  <SideInterest/>
   <ContactDetails />
 </div>
 </>

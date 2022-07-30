@@ -49,6 +49,7 @@ img:hover {
 .a {
   list-style-type: circle;
   font-style: italic;
+  margin-left: 50px;
 }
 
 .main {
@@ -118,7 +119,8 @@ img:hover {
 
 .rcorners1 {
   border-radius: 0px 300px 0px 0px;
-  height: 400px;  
+  height: 400px; 
+  opacity: .6; 
 }
 
 
